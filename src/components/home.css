@@ -1,0 +1,229 @@
+.strip {
+    min-height: 40vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.vod_info {
+    min-height: 93vh;
+    background-color: rgb(23, 23, 23);
+    padding: 50px;  
+    display: flex;
+    align-items: center;
+     
+}
+
+.vod_info2 {
+    min-height: 50vh; 
+    background-color: rgba(23, 23, 23);
+    color: white;
+    padding: 30px;
+    padding-left: 50px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.vod_info3 {
+    min-width: 350px;
+    width: 350px;
+}
+
+.vod_info3 img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.vod_info4 {
+    max-width: 400px;
+    margin-left: 40px;
+}
+
+.vod_info5 {
+    display: flex;
+    align-items: center;
+}
+
+.btn_info:hover {
+    background-color: rgb(253, 233, 6);
+}
+
+.vod_info6{
+   background-color: rgb(23, 23, 23);
+}
+
+.span1{
+    color: rgba(255, 255, 255, 0.498);
+}
+
+@media(max-width:810px) {
+    .vod_info {
+        background: rgba(23, 23, 23);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       padding-bottom: 20px;
+    }
+
+    .vod_info2 {
+        background: rgba(23, 23, 23);
+        color: white;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        justify-content: center;
+    }
+
+    .vod_info2 .vod_info3 {
+        margin-top: 30px;
+        min-width: 315px;
+        width: 315px;
+        border-radius: 30px;
+
+    }
+
+    .vod_info .vod_info2 img {
+        float: none;
+        border-radius: 30px;
+
+    }
+
+    .vod_info4 {
+        max-width: 350px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .vod_info5 {
+        display: flex;
+        align-items: center;
+        
+    }
+}
+
+.vod_input {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.vod_input_h2 {
+    text-shadow: 8px 8px 8px rgb(0, 0, 0);
+    color: rgba(239, 199, 2, 0.505);
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-size: 50px;
+    font-family: 'Poor Story', cursive;
+}
+
+.vod_input3 {
+    background-color: rgba(0, 0, 0, 0.463);
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+
+.vod_input4 {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+
+}
+
+.vod_input4::placeholder {
+    color: white;
+}
+
+.vod_input4:hover {
+    background-color: rgba(0, 0, 0, 0.299);
+}
+
+.vod_input4:focus {
+    outline: none;
+    border: 3px solid rgba(0, 0, 0, 0);
+    border-radius: 8px 0px 0px 8px;
+}
+
+
+.vod_input5 {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.vod_input5:hover {
+    background-color: rgba(0, 0, 0, 0.297);
+}
+
+.vod_item {
+
+    transition: transform 0.5s;
+}
+
+.vod_item:hover {
+    transform: scale(1.12, 1.12);
+
+}
+
+.vod_item3 {
+    min-height: 250px;
+    max-height: 250px;
+    width: 100%;
+    border-radius: 7px;
+}
+
+.form-select{
+    background-color: white; 
+    border-color:black;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.153);;
+}
+
+.form-select:focus {
+    border-color:black;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.153);
+}
+.form-select:hover{
+    border-color:black;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.687);
+}
+
+.nav_button{
+    background-color: white; 
+    border-color:black;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.153);
+    /* box-shadow: 5px 5px 5px 0.25rem rgba(255, 255, 255, 0.256); */
+}
+.nav_button:focus{
+    border-color:black;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.153);
+}
+.nav_button:hover{
+    border-color:black;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.687);
+}
+
+
+ .nav3:checked{
+    background-color:black;
+    color: white;
+}
+
+
+.nav10{
+    color: white;
+}
+
+.nav10:hover{
+    color: rgba(255, 255, 255, 0.53);
+}
+
+.nav10:focus{
+    color: rgba(255, 255, 255, 0.53);
+}
+
+
+
+
